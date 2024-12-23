@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather";
 
@@ -6,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <h1>React Debugging</h1>
-      <Weather city="Goa"/>
+      <Weather city="Goa" />
     </div>
   );
 }
